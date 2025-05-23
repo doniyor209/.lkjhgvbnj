@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: rgb(80, 55, 222);
+}
+
+.box {
+    margin: 200px auto;
+    background-color: rgb(40, 26, 110);
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+select {
+    margin: 15px auto;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    width: 90%;
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(37,117,252);
+    color: white;
+}
